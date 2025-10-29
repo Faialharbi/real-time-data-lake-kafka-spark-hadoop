@@ -47,17 +47,6 @@ pip install -r requirements.txt
 ```
 
 
-### Project Structure
-
-kafka/
- └── producer.py              # Streams JSON data into Kafka
-spark/
- ├── spark_hadoop_stream.py   # Consumes Kafka stream and writes to HDFS
- └── read_parquet.py          # Reads processed Parquet data
-docker-compose.yml            # Kafka + Zookeeper + UI setup
-requirements.txt              # Python dependencies
-
-
 
 
 
